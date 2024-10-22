@@ -1,4 +1,6 @@
-import server.MyServer;
+package netty;
+
+import netty.server.MyServer;
 
 public class ServerApp {
     public static void main(String[] args) throws InterruptedException {
