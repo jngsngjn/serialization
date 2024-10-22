@@ -1,10 +1,8 @@
-package handler;
+package netty.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import serialization.Person;
-
-import java.time.LocalDateTime;
+import object.Person;
 
 public class ClientHandler extends ChannelInboundHandlerAdapter {
 

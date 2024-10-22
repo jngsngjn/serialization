@@ -1,4 +1,6 @@
-import client.MyClient;
+package netty;
+
+import netty.client.MyClient;
 
 public class ClientApp {
     public static void main(String[] args) throws InterruptedException {
